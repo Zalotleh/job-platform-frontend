@@ -4,7 +4,6 @@ import moment from "moment";
 import JobContext from "../../context/JobContext";
 import { toast } from "react-toastify";
 
-// mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN;
 
 const JobDetails = ({ job, candidates, access_token }) => {
   const { applyToJob, checkJobApplied, applied, clearErrors, error, loading } =
